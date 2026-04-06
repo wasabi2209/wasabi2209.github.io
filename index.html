@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thăng Long Media - YouTube Channel Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section h2 {
+            font-size: 1.3rem;
+            color: #60a5fa;
+            margin-bottom: 12px;
+        }
+
+        .section p {
+            color: #c0c0c0;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 6px 0;
+            color: #c0c0c0;
+        }
+
+        ul li::before {
+            content: "✓ ";
+            color: #34d399;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #222;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thăng Long Media</h1>
+        <p class="subtitle">Hệ thống quản lý kênh YouTube & doanh thu nội bộ</p>
+
+        <div class="section">
+            <h2>Giới thiệu</h2>
+            <p>Thăng Long Media Dashboard là ứng dụng quản lý nội bộ dành cho đội ngũ nhân sự. Hệ thống giúp theo dõi
+                hiệu suất kênh YouTube, tính toán doanh thu, quản lý hoa hồng (commission), và xử lý phiếu lương.</p>
+        </div>
+
+        <div class="section">
+            <h2>Tính năng chính</h2>
+            <ul>
+                <li>Quản lý kênh YouTube (theo dõi trạng thái, doanh thu)</li>
+                <li>Đồng bộ dữ liệu YouTube Analytics (views, revenue)</li>
+                <li>Tính toán hoa hồng tự động theo cấp bậc</li>
+                <li>Quản lý nhân sự & KPI</li>
+                <li>Báo cáo tài chính & phiếu lương</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Cách sử dụng Google API</h2>
+            <p>Ứng dụng sử dụng YouTube Data API và YouTube Analytics API để:</p>
+            <ul>
+                <li>Đọc thông tin kênh YouTube (tên, số subscriber, views)</li>
+                <li>Đọc dữ liệu doanh thu từ YouTube Analytics</li>
+            </ul>
+            <p>Ứng dụng chỉ <strong>đọc dữ liệu</strong> (readonly), không chỉnh sửa hay đăng nội dung lên kênh.</p>
+        </div>
+
+        <div class="section">
+            <h2>Liên hệ</h2>
+            <p>Email: <a href="mailto:richardkim@thanglong.net">richardkim@thanglong.net</a></p>
+            <p><a href="privacy.html">Chính sách bảo mật</a></p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Thăng Long Media. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
